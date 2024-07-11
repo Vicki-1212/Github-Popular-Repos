@@ -1,0 +1,50 @@
+/* Write your CSS here */
+
+.repos-list-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.repo-image {
+  width: 100px;
+}
+
+.reposName {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.repos-info-bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.repos-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-image {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.count {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}

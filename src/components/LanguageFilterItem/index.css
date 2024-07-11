@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+.nav-list-items {
+  list-style-type: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-list-items {
+    margin-right: 50px;
+  }
+}
+
+.nav-link-button {
+  min-width: 50px;
+  border: none;
+  outline: none;
+  color: #1e293b;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-link-button {
+    font-size: 25px;
+  }
+}
+
+.active {
+  border:2px solid #0284c7;
+  border-radius:20px;
+  color: #0284c7;
+  min-width:100px;
+  padding:5px 10px 5px 10px;
+  text-align:center;
+}
